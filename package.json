@@ -1,7 +1,7 @@
 {
   "name": "@esm-bundle/angular__platform-browser",
   "version": "9.1.3",
-  "description": "Repo to test esm-bundle's automatic publishing",
+  "description": "ESM and SystemJS versions of @angular/platform-browser",
   "main": "index.js",
   "module": "esm/index.js",
   "type": "module",
