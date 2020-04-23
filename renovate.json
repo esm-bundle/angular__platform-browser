@@ -1,4 +1,10 @@
 {
   "extends": ["config:base"],
-  "ignoreDeps": ["@angular/core", "@angular/common"]
+  "ignoreDeps": ["@angular/core", "@angular/common", "rxjs"],
+  "packageRules": [
+    {
+      "packageNames": ["rxjs"],
+      "allowedVersions": "*"
+    }
+  ]
 }
