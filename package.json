@@ -1,6 +1,6 @@
 {
   "name": "@esm-bundle/angular__platform-browser",
-  "version": "9.1.4",
+  "version": "9.1.5",
   "description": "ESM and SystemJS versions of @angular/platform-browser",
   "main": "index.js",
   "module": "esm/index.js",
