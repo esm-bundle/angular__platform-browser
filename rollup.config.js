@@ -1,119 +1,41 @@
-import commonjs from "@rollup/plugin-commonjs";
-import resolve from "@rollup/plugin-node-resolve";
 import { terser } from "rollup-plugin-terser";
-import packageJson from "./package.json";
+import packageJson from "@angular/platform-browser/package.json";
 
-function createConfig({
-  format,
-  target,
-  minify,
-  resolvedAngularCore,
-  resolvedAngularCommon,
-}) {
-  let dir = format === "module" ? "esm" : format;
-  dir += `/${target}`;
+export default [
+  createConfig({ prod: false, format: "system" }),
+  createConfig({ prod: true, format: "system" }),
+  createConfig({ prod: false, format: "es" }),
+  createConfig({ prod: true, format: "es" }),
+];
+
+function createConfig({ prod, format }) {
+  const dir = (format === "es" ? "." : format) + "/es2015/ivy";
 
   return {
-    input: `./src/${target}/angular-platform-browser.js`,
+    input: require.resolve(
+      "@angular/platform-browser/fesm2015/platform-browser.js"
+    ),
     output: {
-      file: `${dir}/angular-platform-browser${
-        resolvedAngularCore ? ".resolved" : ""
-      }${minify ? ".min" : ""}.js`,
-      sourcemap: true,
+      file: `${dir}/angular-platform-browser.${prod ? "min." : ""}js`,
       format,
-      banner: `/* @angular/platform-browser@${packageJson.version} */`,
-      paths: {
-        "@angular/core": resolvedAngularCore
-          ? `https://cdn.jsdelivr.net/npm/@esm-bundle/angular__core@${resolvedAngularCore}/esm/${target}/angular-core.resolved${
-              minify ? ".min" : ""
-            }.js`
-          : "@angular/core",
-        "@angular/common": resolvedAngularCommon
-          ? `https://cdn.jsdelivr.net/npm/@esm-bundle/angular__common@${resolvedAngularCommon}/esm/${target}/angular-common.resolved${
-              minify ? ".min" : ""
-            }.js`
-          : "@angular/common",
-      },
+      sourcemap: true,
+      banner: `/* esm-bundle - @angular/platform-browser@${packageJson.version} - Ivy - ${format} format - Use of this source code is governed by an MIT-style license that can be found in the LICENSE file at https://angular.io/license */`,
     },
     plugins: [
-      resolve({
-        browser: true,
-      }),
-      commonjs(),
-      minify &&
+      prod &&
         terser({
-          output: {
-            comments: /@angular\/platform-browser@/,
+          format: {
+            comments: /esm-bundle/,
+            ecma: "2015",
           },
         }),
     ],
-    external: ["@angular/core", "@angular/common"],
+    external: [
+      "rxjs",
+      "rxjs/operators",
+      "@angular/common",
+      "@angular/router",
+      "@angular/core",
+    ],
   };
 }
-
-export default () => {
-  const angularCoreDep = packageJson.devDependencies["@angular/core"];
-  const resolvedAngularCore = angularCoreDep.slice(
-    angularCoreDep.lastIndexOf("@") + 1
-  );
-
-  const angularCommonDep = packageJson.devDependencies["@angular/common"];
-  const resolvedAngularCommon = angularCommonDep.slice(
-    angularCommonDep.lastIndexOf("@") + 1
-  );
-
-  return [
-    createConfig({
-      format: "module",
-      target: "es5",
-      minify: true,
-      resolvedAngularCore,
-      resolvedAngularCommon,
-    }),
-    createConfig({
-      format: "module",
-      target: "es5",
-      minify: false,
-      resolvedAngularCore,
-      resolvedAngularCommon,
-    }),
-    createConfig({
-      format: "module",
-      target: "es5",
-      minify: true,
-    }),
-    createConfig({
-      format: "module",
-      target: "es5",
-      minify: false,
-    }),
-    createConfig({
-      format: "module",
-      target: "es2015",
-      minify: true,
-      resolvedAngularCore,
-      resolvedAngularCommon,
-    }),
-    createConfig({
-      format: "module",
-      target: "es2015",
-      minify: false,
-      resolvedAngularCore,
-      resolvedAngularCommon,
-    }),
-    createConfig({
-      format: "module",
-      target: "es2015",
-      minify: true,
-    }),
-    createConfig({
-      format: "module",
-      target: "es2015",
-      minify: false,
-    }),
-    createConfig({ format: "system", target: "es5", minify: true }),
-    createConfig({ format: "system", target: "es5", minify: false }),
-    createConfig({ format: "system", target: "es2015", minify: true }),
-    createConfig({ format: "system", target: "es2015", minify: false }),
-  ];
-};

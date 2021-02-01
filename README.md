@@ -10,61 +10,29 @@ A repo that tests automatic detection of upstream publishes and the publishing o
 
 Upstream repo at https://github.com/angular/angular.
 
-## Resolved URLs
+### Latest Version
 
-Resolved URLs refer to angular platform-browser's dependency on `@angular/core` being resolved to a valid URL instead of the bare specifier `@angular/core`.
+https://cdn.jsdelivr.net/npm/@esm-bundle/angular__platform-browser/system/es2015/ivy/angular-platform-browser.js
 
-## JS Delivr
+https://cdn.jsdelivr.net/npm/@esm-bundle/angular__platform-browser/system/es2015/ivy/angular-platform-browser.min.js
 
-https://cdn.jsdelivr.net/npm/@esm-bundle/angular__platform-browser/esm/es5/angular-platform-browser.resolved.js
+https://unpkg.com/@esm-bundle/angular__platform-browser/system/es2015/ivy/angular-platform-browser.js
 
-https://cdn.jsdelivr.net/npm/@esm-bundle/angular__platform-browser/esm/es5/angular-platform-browser.resolved.min.js
+https://unpkg.com/@esm-bundle/angular__platform-browser/system/es2015/ivy/angular-platform-browser.min.js
 
-https://cdn.jsdelivr.net/npm/@esm-bundle/angular__platform-browser/esm/es2015/angular-platform-browser.resolved.js
+### Specific Version
 
-https://cdn.jsdelivr.net/npm/@esm-bundle/angular__platform-browser/esm/es2015/angular-platform-browser.resolved.min.js
+https://cdn.jsdelivr.net/npm/@esm-bundle/angular__platform-browser@11.1.1/system/es2015/ivy/angular-platform-browser.js
 
-https://cdn.jsdelivr.net/npm/@esm-bundle/angular__platform-browser/esm/es5/angular-platform-browser.js
+https://cdn.jsdelivr.net/npm/@esm-bundle/angular__platform-browser@11.1.1/system/es2015/ivy/angular-platform-browser.min.js
 
-https://cdn.jsdelivr.net/npm/@esm-bundle/angular__platform-browser/esm/es5/angular-platform-browser.min.js
+https://unpkg.com/@esm-bundle/angular__platform-browser@11.1.1/system/es2015/ivy/angular-platform-browser.js
 
-https://cdn.jsdelivr.net/npm/@esm-bundle/angular__platform-browser/esm/es2015/angular-platform-browser.js
+https://unpkg.com/@esm-bundle/angular__platform-browser@11.1.1/system/es2015/ivy/angular-platform-browser.min.js
 
-https://cdn.jsdelivr.net/npm/@esm-bundle/angular__platform-browser/esm/es2015/angular-platform-browser.min.js
+## Need a build that doesn't exist yet?
 
-https://cdn.jsdelivr.net/npm/@esm-bundle/angular__platform-browser/system/es5/angular-platform-browser.js
-
-https://cdn.jsdelivr.net/npm/@esm-bundle/angular__platform-browser/system/es5/angular-platform-browser.min.js
-
-https://cdn.jsdelivr.net/npm/@esm-bundle/angular__platform-browser/system/es2015/angular-platform-browser.js
-
-https://cdn.jsdelivr.net/npm/@esm-bundle/angular__platform-browser/system/es2015/angular-platform-browser.min.js
-
-## Unpkg
-
-https://unpkg.com/@esm-bundle/angular__platform-browser/esm/es5/angular-platform-browser.resolved.js
-
-https://unpkg.com/@esm-bundle/angular__platform-browser/esm/es5/angular-platform-browser.resolved.min.js
-
-https://unpkg.com/@esm-bundle/angular__platform-browser/esm/es2015/angular-platform-browser.resolved.js
-
-https://unpkg.com/@esm-bundle/angular__platform-browser/esm/es2015/angular-platform-browser.resolved.min.js
-
-https://unpkg.com/@esm-bundle/angular__platform-browser/esm/es5/angular-platform-browser.js
-
-https://unpkg.com/@esm-bundle/angular__platform-browser/esm/es5/angular-platform-browser.min.js
-
-https://unpkg.com/@esm-bundle/angular__platform-browser/esm/es2015/angular-platform-browser.js
-
-https://unpkg.com/@esm-bundle/angular__platform-browser/esm/es2015/angular-platform-browser.min.js
-
-https://unpkg.com/@esm-bundle/angular__platform-browser/system/es5/angular-platform-browser.js
-
-https://unpkg.com/@esm-bundle/angular__platform-browser/system/es5/angular-platform-browser.min.js
-
-https://unpkg.com/@esm-bundle/angular__platform-browser/system/es2015/angular-platform-browser.js
-
-https://unpkg.com/@esm-bundle/angular__platform-browser/system/es2015/angular-platform-browser.min.js
+If you need an es5 build, non-ivy build, or a build for a different version of Angular, please open a Github issue.
 
 ## Npm
 
