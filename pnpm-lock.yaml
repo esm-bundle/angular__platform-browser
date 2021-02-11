@@ -1,10 +1,10 @@
 devDependencies:
   '@angular/common': 11.1.1_@angular+core@11.1.1+rxjs@6.6.3
-  '@angular/compiler': 11.1.2
-  '@angular/compiler-cli': 11.1.2_d84fb2e21f70fb8436f202779791c22b
+  '@angular/compiler': 11.2.0
+  '@angular/compiler-cli': 11.2.0_97e248bbf2470b39080f531cd1ee1e87
   '@angular/core': 11.1.1_rxjs@6.6.3
-  '@angular/platform-browser': 11.1.2_3f0c9497bae1b55fc1a28a50b177ad6d
-  '@ngtools/webpack': 11.1.4_a2dd9eabf70f9da29d12bddbf9a3b310
+  '@angular/platform-browser': 11.2.0_3f0c9497bae1b55fc1a28a50b177ad6d
+  '@ngtools/webpack': 11.1.4_0636caabe0f47da6a22ecb4089c8d5b8
   concurrently: 5.3.0
   esm-bundle-scripts: 1.2.0
   husky: 4.3.8
@@ -47,9 +47,9 @@ packages:
       rxjs: ^6.5.3
     resolution:
       integrity: sha512-YHAmbjmwqIv43CdzRJkXJiT7p6Xm6DpsGKLuCGPoomUk7Nf5U5LsSZm/uvyTu0O+OQp2RUFUdGqW5DzSZZnKtQ==
-  /@angular/compiler-cli/11.1.2_d84fb2e21f70fb8436f202779791c22b:
+  /@angular/compiler-cli/11.2.0_97e248bbf2470b39080f531cd1ee1e87:
     dependencies:
-      '@angular/compiler': 11.1.2
+      '@angular/compiler': 11.2.0
       '@babel/core': 7.12.10
       '@babel/types': 7.12.12
       canonical-path: 1.0.0
@@ -71,16 +71,16 @@ packages:
       node: '>=10.0'
     hasBin: true
     peerDependencies:
-      '@angular/compiler': 11.1.2
+      '@angular/compiler': 11.2.0
       typescript: '>=4.0 <4.2'
     resolution:
-      integrity: sha512-J+j200qgq+qqcBx0GQLnfE0dITwSO3IPPidbvsnuZ3iDmSvxfeJvbuu1PMbpb7Mi7J+StEnMWfRk5q7dnm7kFA==
-  /@angular/compiler/11.1.2:
+      integrity: sha512-FJ8OHWBQftmncDGV43ASFeCu3cW1W2P5fvub9fiBFEeTIkB/HXrMOMCQg/1XSdfA5kwFzj2NedMp573X9kq6ng==
+  /@angular/compiler/11.2.0:
     dependencies:
       tslib: 2.1.0
     dev: true
     resolution:
-      integrity: sha512-+GyKPAdwkXVq6xfSRVhF2tlheDLGf2ziTzaMcpjRk8sM0VeJAqrbDI/vqpZq9y6GXceKGDPrXdPY7bPwBPpDYg==
+      integrity: sha512-EW6LM/kUYhQkuFqGt03c/eRKZAYr0LLEdMOn//j1uIh+wSq9KLffBGpky6b63xdfWxsXi8OucXUOydTQBckNEQ==
   /@angular/core/11.1.1_rxjs@6.6.3:
     dependencies:
       rxjs: 6.6.3
@@ -91,21 +91,21 @@ packages:
       zone.js: ^0.10.2 || ^0.11.3
     resolution:
       integrity: sha512-yBBLekXeDviZ+KW3DmGeOK0CK/yQ9gCy2uHY47KUDI4UTRRLz0NI5nS9NdKwk5bpCPId6ZPNsJtHPBFXRhAnNA==
-  /@angular/platform-browser/11.1.2_3f0c9497bae1b55fc1a28a50b177ad6d:
+  /@angular/platform-browser/11.2.0_3f0c9497bae1b55fc1a28a50b177ad6d:
     dependencies:
       '@angular/common': 11.1.1_@angular+core@11.1.1+rxjs@6.6.3
       '@angular/core': 11.1.1_rxjs@6.6.3
       tslib: 2.1.0
     dev: true
     peerDependencies:
-      '@angular/animations': 11.1.2
-      '@angular/common': 11.1.2
-      '@angular/core': 11.1.2
+      '@angular/animations': 11.2.0
+      '@angular/common': 11.2.0
+      '@angular/core': 11.2.0
     peerDependenciesMeta:
       '@angular/animations':
         optional: true
     resolution:
-      integrity: sha512-jgOCBGlvVSqR5PN7vyhlQxrg6lLZDur+e5pgP6Gmi2NcywSq7fNAJjZSNLv/FptTLlGl9dVAbrAkyeQaPU1KfQ==
+      integrity: sha512-xd3O4svQ95BN/KpzQUFkSWfvwiCURuLJhLlDkxzLA58ElA0qodHOjQmQz/1vRFh/nXQQoWg8z9ixbmcRGzWTow==
   /@babel/code-frame/7.12.11:
     dependencies:
       '@babel/highlight': 7.10.4
@@ -584,10 +584,10 @@ packages:
       node: '>= 8.3'
     resolution:
       integrity: sha512-OXD0RgQ86Tu3MazKo8bnrkDRaDXXMGUqd+kTtLtK1Zb7CRzQcaSRPPPV37SvYTdevXEBVxe0HXylEjs8ibkmCw==
-  /@ngtools/webpack/11.1.4_a2dd9eabf70f9da29d12bddbf9a3b310:
+  /@ngtools/webpack/11.1.4_0636caabe0f47da6a22ecb4089c8d5b8:
     dependencies:
       '@angular-devkit/core': 11.1.4
-      '@angular/compiler-cli': 11.1.2_d84fb2e21f70fb8436f202779791c22b
+      '@angular/compiler-cli': 11.2.0_97e248bbf2470b39080f531cd1ee1e87
       enhanced-resolve: 5.6.0
       typescript: 4.1.4
       webpack-sources: 2.2.0
@@ -7283,10 +7283,10 @@ packages:
       integrity: sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==
 specifiers:
   '@angular/common': ^11.1.1
-  '@angular/compiler': 11.1.2
-  '@angular/compiler-cli': 11.1.2
+  '@angular/compiler': 11.2.0
+  '@angular/compiler-cli': 11.2.0
   '@angular/core': ^11.1.1
-  '@angular/platform-browser': 11.1.2
+  '@angular/platform-browser': 11.2.0
   '@ngtools/webpack': 11.1.4
   concurrently: 5.3.0
   esm-bundle-scripts: 1.2.0
