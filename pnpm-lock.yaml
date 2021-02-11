@@ -4,7 +4,7 @@ devDependencies:
   '@angular/compiler-cli': 11.2.0_76e9c380e6ad5966e08dbe567ecd27ed
   '@angular/core': 11.1.1_rxjs@6.6.3
   '@angular/platform-browser': 11.2.0_3f0c9497bae1b55fc1a28a50b177ad6d
-  '@ngtools/webpack': 11.1.4_50e57bfd53dc2d355062478d836a56e2
+  '@ngtools/webpack': 11.2.0_50e57bfd53dc2d355062478d836a56e2
   concurrently: 5.3.0
   esm-bundle-scripts: 1.2.0
   husky: 5.0.9
@@ -22,7 +22,7 @@ devDependencies:
   typescript: 4.1.5
 lockfileVersion: 5.2
 packages:
-  /@angular-devkit/core/11.1.4:
+  /@angular-devkit/core/11.2.0:
     dependencies:
       ajv: 6.12.6
       fast-json-stable-stringify: 2.1.0
@@ -35,7 +35,7 @@ packages:
       npm: ^6.11.0
       yarn: '>= 1.13.0'
     resolution:
-      integrity: sha512-xqjUIdMTDNjZ8jkzlDSQbhmTwF2tOLlT0iRI9mb7pN4VIS0LI/Xu0iTqDUrVs0Hqtb9609dz13LXu5zbQSb+cw==
+      integrity: sha512-qqYEH8m/bwpngoLDMFuth8ykvoHxQ3aHHnAWfRXz9NXydwSfathG0VSYCctB126sK39JKIn+xq16CQAExxNu+Q==
   /@angular/common/11.1.1_@angular+core@11.1.1+rxjs@6.6.3:
     dependencies:
       '@angular/core': 11.1.1_rxjs@6.6.3
@@ -584,11 +584,11 @@ packages:
       node: '>= 8.3'
     resolution:
       integrity: sha512-OXD0RgQ86Tu3MazKo8bnrkDRaDXXMGUqd+kTtLtK1Zb7CRzQcaSRPPPV37SvYTdevXEBVxe0HXylEjs8ibkmCw==
-  /@ngtools/webpack/11.1.4_50e57bfd53dc2d355062478d836a56e2:
+  /@ngtools/webpack/11.2.0_50e57bfd53dc2d355062478d836a56e2:
     dependencies:
-      '@angular-devkit/core': 11.1.4
+      '@angular-devkit/core': 11.2.0
       '@angular/compiler-cli': 11.2.0_76e9c380e6ad5966e08dbe567ecd27ed
-      enhanced-resolve: 5.6.0
+      enhanced-resolve: 5.7.0
       typescript: 4.1.5
       webpack-sources: 2.2.0
     dev: true
@@ -597,11 +597,11 @@ packages:
       npm: ^6.11.0
       yarn: '>= 1.13.0'
     peerDependencies:
-      '@angular/compiler-cli': ^11.0.0
+      '@angular/compiler-cli': ^11.0.0 || ^11.2.0-next
       typescript: ~4.0.0 || ~4.1.0
       webpack: ^4.0.0
     resolution:
-      integrity: sha512-fM17s/mGY/DV9/a/d3lsFiZdL8PfKRY0VGPHCujBIWv9KQg1gUUNkbTepFaNPCBK/bWDH/fIXuNRIHhy1NUeIA==
+      integrity: sha512-2KYaA/fIw863jydXDolWp4kUNLODVIKs2834vW+oztocnYFe/z4dTz6rArKFUCixMCu12ieXrjAetzGA564bsg==
   /@nodelib/fs.scandir/2.1.4:
     dependencies:
       '@nodelib/fs.stat': 2.0.4
@@ -2285,7 +2285,7 @@ packages:
       node: '>=10.0.0'
     resolution:
       integrity: sha512-vW7EAtn0HDQ4MtT5QbmCHF17TaYLONv2/JwdYsq9USPRZVM4zG7WB3k0Nc321z8EuSOlhGokrYlYx4176QhD0A==
-  /enhanced-resolve/5.6.0:
+  /enhanced-resolve/5.7.0:
     dependencies:
       graceful-fs: 4.2.4
       tapable: 2.2.0
@@ -2293,7 +2293,7 @@ packages:
     engines:
       node: '>=10.13.0'
     resolution:
-      integrity: sha512-C3GGDfFZmqUa21o10YRKbZN60DPl0HyXKXxoEnQMWso9u7KMU23L7CBHfr/rVxORddY/8YQZaU2MZ1ewTS8Pcw==
+      integrity: sha512-6njwt/NsZFUKhM6j9U8hzVyD4E4r0x7NQzhTCbcWOJ0IQjNSAoalWmb0AE51Wn+fwan5qVESWi7t2ToBxs9vrw==
   /ent/2.2.0:
     dev: true
     resolution:
@@ -7294,7 +7294,7 @@ specifiers:
   '@angular/compiler-cli': 11.2.0
   '@angular/core': ^11.1.1
   '@angular/platform-browser': 11.2.0
-  '@ngtools/webpack': 11.1.4
+  '@ngtools/webpack': 11.2.0
   concurrently: 5.3.0
   esm-bundle-scripts: 1.2.0
   husky: 5.0.9
