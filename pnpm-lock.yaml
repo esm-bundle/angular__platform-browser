@@ -1,10 +1,10 @@
 devDependencies:
   '@angular/common': 11.1.1_@angular+core@11.1.1+rxjs@6.6.3
   '@angular/compiler': 11.2.0
-  '@angular/compiler-cli': 11.2.0_97e248bbf2470b39080f531cd1ee1e87
+  '@angular/compiler-cli': 11.2.0_76e9c380e6ad5966e08dbe567ecd27ed
   '@angular/core': 11.1.1_rxjs@6.6.3
   '@angular/platform-browser': 11.2.0_3f0c9497bae1b55fc1a28a50b177ad6d
-  '@ngtools/webpack': 11.1.4_0636caabe0f47da6a22ecb4089c8d5b8
+  '@ngtools/webpack': 11.1.4_50e57bfd53dc2d355062478d836a56e2
   concurrently: 5.3.0
   esm-bundle-scripts: 1.2.0
   husky: 4.3.8
@@ -19,7 +19,7 @@ devDependencies:
   rollup: 2.38.5
   rollup-plugin-terser: 7.0.2_rollup@2.38.5
   rxjs: 6.6.3
-  typescript: 4.1.4
+  typescript: 4.1.5
 lockfileVersion: 5.2
 packages:
   /@angular-devkit/core/11.1.4:
@@ -47,7 +47,7 @@ packages:
       rxjs: ^6.5.3
     resolution:
       integrity: sha512-YHAmbjmwqIv43CdzRJkXJiT7p6Xm6DpsGKLuCGPoomUk7Nf5U5LsSZm/uvyTu0O+OQp2RUFUdGqW5DzSZZnKtQ==
-  /@angular/compiler-cli/11.2.0_97e248bbf2470b39080f531cd1ee1e87:
+  /@angular/compiler-cli/11.2.0_76e9c380e6ad5966e08dbe567ecd27ed:
     dependencies:
       '@angular/compiler': 11.2.0
       '@babel/core': 7.12.10
@@ -64,7 +64,7 @@ packages:
       source-map: 0.6.1
       sourcemap-codec: 1.4.8
       tslib: 2.1.0
-      typescript: 4.1.4
+      typescript: 4.1.5
       yargs: 16.2.0
     dev: true
     engines:
@@ -584,12 +584,12 @@ packages:
       node: '>= 8.3'
     resolution:
       integrity: sha512-OXD0RgQ86Tu3MazKo8bnrkDRaDXXMGUqd+kTtLtK1Zb7CRzQcaSRPPPV37SvYTdevXEBVxe0HXylEjs8ibkmCw==
-  /@ngtools/webpack/11.1.4_0636caabe0f47da6a22ecb4089c8d5b8:
+  /@ngtools/webpack/11.1.4_50e57bfd53dc2d355062478d836a56e2:
     dependencies:
       '@angular-devkit/core': 11.1.4
-      '@angular/compiler-cli': 11.2.0_97e248bbf2470b39080f531cd1ee1e87
+      '@angular/compiler-cli': 11.2.0_76e9c380e6ad5966e08dbe567ecd27ed
       enhanced-resolve: 5.6.0
-      typescript: 4.1.4
+      typescript: 4.1.5
       webpack-sources: 2.2.0
     dev: true
     engines:
@@ -6777,13 +6777,13 @@ packages:
     dev: true
     resolution:
       integrity: sha512-zdu8XMNEDepKKR+XYOXAVPtWui0ly0NtohUscw+UmaHiAWT8hrV1rr//H6V+0DvJ3OQ19S979M0laLfX8rm82Q==
-  /typescript/4.1.4:
+  /typescript/4.1.5:
     dev: true
     engines:
       node: '>=4.2.0'
     hasBin: true
     resolution:
-      integrity: sha512-+Uru0t8qIRgjuCpiSPpfGuhHecMllk5Zsazj5LZvVsEStEjmIRRBZe+jHjGQvsgS7M1wONy2PQXd67EMyV6acg==
+      integrity: sha512-6OSu9PTIzmn9TCDiovULTnET6BgXtDYL4Gg4szY+cGsc3JP1dQL8qvE8kShTRx1NIw4Q9IBHlwODjkjWEtMUyA==
   /ua-parser-js/0.7.22:
     dev: true
     resolution:
@@ -7302,4 +7302,4 @@ specifiers:
   rollup: 2.38.5
   rollup-plugin-terser: 7.0.2
   rxjs: 6.6.3
-  typescript: 4.1.4
+  typescript: 4.1.5
