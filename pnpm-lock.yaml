@@ -4,7 +4,6 @@ devDependencies:
   '@angular/compiler-cli': 11.2.0_76e9c380e6ad5966e08dbe567ecd27ed
   '@angular/core': 11.1.1_rxjs@6.6.3
   '@angular/platform-browser': 11.2.0_3f0c9497bae1b55fc1a28a50b177ad6d
-  '@ngtools/webpack': 11.2.0_50e57bfd53dc2d355062478d836a56e2
   concurrently: 5.3.0
   esm-bundle-scripts: 1.2.0
   husky: 5.0.9
@@ -22,20 +21,6 @@ devDependencies:
   typescript: 4.1.5
 lockfileVersion: 5.2
 packages:
-  /@angular-devkit/core/11.2.0:
-    dependencies:
-      ajv: 6.12.6
-      fast-json-stable-stringify: 2.1.0
-      magic-string: 0.25.7
-      rxjs: 6.6.3
-      source-map: 0.7.3
-    dev: true
-    engines:
-      node: '>= 10.13.0'
-      npm: ^6.11.0
-      yarn: '>= 1.13.0'
-    resolution:
-      integrity: sha512-qqYEH8m/bwpngoLDMFuth8ykvoHxQ3aHHnAWfRXz9NXydwSfathG0VSYCctB126sK39JKIn+xq16CQAExxNu+Q==
   /@angular/common/11.1.1_@angular+core@11.1.1+rxjs@6.6.3:
     dependencies:
       '@angular/core': 11.1.1_rxjs@6.6.3
@@ -584,24 +569,6 @@ packages:
       node: '>= 8.3'
     resolution:
       integrity: sha512-OXD0RgQ86Tu3MazKo8bnrkDRaDXXMGUqd+kTtLtK1Zb7CRzQcaSRPPPV37SvYTdevXEBVxe0HXylEjs8ibkmCw==
-  /@ngtools/webpack/11.2.0_50e57bfd53dc2d355062478d836a56e2:
-    dependencies:
-      '@angular-devkit/core': 11.2.0
-      '@angular/compiler-cli': 11.2.0_76e9c380e6ad5966e08dbe567ecd27ed
-      enhanced-resolve: 5.7.0
-      typescript: 4.1.5
-      webpack-sources: 2.2.0
-    dev: true
-    engines:
-      node: '>= 10.13.0'
-      npm: ^6.11.0
-      yarn: '>= 1.13.0'
-    peerDependencies:
-      '@angular/compiler-cli': ^11.0.0 || ^11.2.0-next
-      typescript: ~4.0.0 || ~4.1.0
-      webpack: ^4.0.0
-    resolution:
-      integrity: sha512-2KYaA/fIw863jydXDolWp4kUNLODVIKs2834vW+oztocnYFe/z4dTz6rArKFUCixMCu12ieXrjAetzGA564bsg==
   /@nodelib/fs.scandir/2.1.4:
     dependencies:
       '@nodelib/fs.stat': 2.0.4
@@ -2285,15 +2252,6 @@ packages:
       node: '>=10.0.0'
     resolution:
       integrity: sha512-vW7EAtn0HDQ4MtT5QbmCHF17TaYLONv2/JwdYsq9USPRZVM4zG7WB3k0Nc321z8EuSOlhGokrYlYx4176QhD0A==
-  /enhanced-resolve/5.7.0:
-    dependencies:
-      graceful-fs: 4.2.4
-      tapable: 2.2.0
-    dev: true
-    engines:
-      node: '>=10.13.0'
-    resolution:
-      integrity: sha512-6njwt/NsZFUKhM6j9U8hzVyD4E4r0x7NQzhTCbcWOJ0IQjNSAoalWmb0AE51Wn+fwan5qVESWi7t2ToBxs9vrw==
   /ent/2.2.0:
     dev: true
     resolution:
@@ -6246,10 +6204,6 @@ packages:
       node: '>=10.0.0'
     resolution:
       integrity: sha512-Aqg2dlRh6xSJvRYK31ksG65q4kmBOqU4g+1ukhPcoT6wNGYoIwSYPlCPuRwOO9pgLUajojGFztl6+V2opmKcww==
-  /source-list-map/2.0.1:
-    dev: true
-    resolution:
-      integrity: sha512-qnQ7gVMxGNxsiL4lEuJwe/To8UnK7fAnmbGEEH8RpLouuKbeEm0lhbQVFIrNSuB+G7tVrAlVsZgETT5nljf+Iw==
   /source-map-resolve/0.5.3:
     dependencies:
       atob: 2.1.2
@@ -6550,12 +6504,6 @@ packages:
     dev: true
     resolution:
       integrity: sha512-9QNk5KwDF+Bvz+PyObkmSYjI5ksVUYtjW7AU22r2NKcfLJcXp96hkDWU3+XndOsUb+AQ9QhfzfCT2O+CNWT5Tw==
-  /tapable/2.2.0:
-    dev: true
-    engines:
-      node: '>=6'
-    resolution:
-      integrity: sha512-FBk4IesMV1rBxX2tfiK8RAmogtWn53puLOQlvO8XuwlgxcYbP4mVPS9Ph4aeamSyyVjOl24aYWAuc8U5kCVwMw==
   /term-size/2.2.1:
     dev: true
     engines:
@@ -7007,15 +6955,6 @@ packages:
     dev: true
     resolution:
       integrity: sha512-YQ+BmxuTgd6UXZW3+ICGfyqRyHXVlD5GtQr5+qjiNW7bF0cqrzX500HVXPBOvgXb5YnzDd+h0zqyv61KUD7+Sg==
-  /webpack-sources/2.2.0:
-    dependencies:
-      source-list-map: 2.0.1
-      source-map: 0.6.1
-    dev: true
-    engines:
-      node: '>=10.13.0'
-    resolution:
-      integrity: sha512-bQsA24JLwcnWGArOKUxYKhX3Mz/nK1Xf6hxullKERyktjNMC4x8koOeaDNTA2fEJ09BdWLbM/iTW0ithREUP0w==
   /whatwg-encoding/1.0.5:
     dependencies:
       iconv-lite: 0.4.24
@@ -7294,7 +7233,6 @@ specifiers:
   '@angular/compiler-cli': 11.2.0
   '@angular/core': ^11.1.1
   '@angular/platform-browser': 11.2.0
-  '@ngtools/webpack': 11.2.0
   concurrently: 5.3.0
   esm-bundle-scripts: 1.2.0
   husky: 5.0.9
