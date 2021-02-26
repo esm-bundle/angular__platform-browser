@@ -1,6 +1,6 @@
 # angular-platform-browser
 
-[![npm version](https://img.shields.io/npm/v/@esm-bundle/angular__platform-browser.svg?style=flat)](https://www.npmjs.com/package/@esm-bundle/angular__platform-browser) [![build status](https://travis-ci.com/esm-bundle/angular__platform-browser.svg?branch=master)](https://travis-ci.com/esm-bundle/angular__platform-browser) [![](https://data.jsdelivr.com/v1/package/npm/@esm-bundle/angular__platform-browser/badge)](https://www.jsdelivr.com/package/npm/@esm-bundle/angular__platform-browser)
+[![npm version](https://img.shields.io/npm/v/@esm-bundle/angular__platform-browser.svg?style=flat)](https://www.npmjs.com/package/@esm-bundle/angular__platform-browser) [![](https://data.jsdelivr.com/v1/package/npm/@esm-bundle/angular__platform-browser/badge)](https://www.jsdelivr.com/package/npm/@esm-bundle/angular__platform-browser)
 
 ["What is this" blog post](https://medium.com/@joeldenning/an-esm-bundle-for-any-npm-package-5f850db0e04d)
 
