@@ -20,14 +20,14 @@ specifiers:
   rimraf: 3.0.2
   rollup: 2.58.0
   rollup-plugin-terser: 7.0.2
-  rxjs: 7.3.1
+  rxjs: 7.4.0
   typescript: 4.4.3
 
 devDependencies:
-  '@angular/common': 11.1.1_@angular+core@11.1.1+rxjs@7.3.1
+  '@angular/common': 11.1.1_@angular+core@11.1.1+rxjs@7.4.0
   '@angular/compiler': 12.2.8
   '@angular/compiler-cli': 12.2.8_398039d94a325eda519e5cc7e0d15ff8
-  '@angular/core': 11.1.1_rxjs@7.3.1
+  '@angular/core': 11.1.1_rxjs@7.4.0
   '@angular/platform-browser': 12.2.8_3f0c9497bae1b55fc1a28a50b177ad6d
   concurrently: 5.3.0
   esm-bundle-scripts: 1.2.0
@@ -43,19 +43,19 @@ devDependencies:
   rimraf: 3.0.2
   rollup: 2.58.0
   rollup-plugin-terser: 7.0.2_rollup@2.58.0
-  rxjs: 7.3.1
+  rxjs: 7.4.0
   typescript: 4.4.3
 
 packages:
 
-  /@angular/common/11.1.1_@angular+core@11.1.1+rxjs@7.3.1:
+  /@angular/common/11.1.1_@angular+core@11.1.1+rxjs@7.4.0:
     resolution: {integrity: sha512-YHAmbjmwqIv43CdzRJkXJiT7p6Xm6DpsGKLuCGPoomUk7Nf5U5LsSZm/uvyTu0O+OQp2RUFUdGqW5DzSZZnKtQ==}
     peerDependencies:
       '@angular/core': 11.1.1
       rxjs: ^6.5.3
     dependencies:
-      '@angular/core': 11.1.1_rxjs@7.3.1
-      rxjs: 7.3.1
+      '@angular/core': 11.1.1_rxjs@7.4.0
+      rxjs: 7.4.0
       tslib: 2.1.0
     dev: true
 
@@ -94,13 +94,13 @@ packages:
       tslib: 2.3.0
     dev: true
 
-  /@angular/core/11.1.1_rxjs@7.3.1:
+  /@angular/core/11.1.1_rxjs@7.4.0:
     resolution: {integrity: sha512-yBBLekXeDviZ+KW3DmGeOK0CK/yQ9gCy2uHY47KUDI4UTRRLz0NI5nS9NdKwk5bpCPId6ZPNsJtHPBFXRhAnNA==}
     peerDependencies:
       rxjs: ^6.5.3
       zone.js: ^0.10.2 || ^0.11.3
     dependencies:
-      rxjs: 7.3.1
+      rxjs: 7.4.0
       tslib: 2.1.0
     dev: true
 
@@ -115,8 +115,8 @@ packages:
       '@angular/animations':
         optional: true
     dependencies:
-      '@angular/common': 11.1.1_@angular+core@11.1.1+rxjs@7.3.1
-      '@angular/core': 11.1.1_rxjs@7.3.1
+      '@angular/common': 11.1.1_@angular+core@11.1.1+rxjs@7.4.0
+      '@angular/core': 11.1.1_rxjs@7.4.0
       tslib: 2.3.0
     dev: true
 
@@ -5921,8 +5921,8 @@ packages:
       tslib: 2.1.0
     dev: true
 
-  /rxjs/7.3.1:
-    resolution: {integrity: sha512-vNenx7gqjPyeKpRnM6S5Ksm/oFTRijWWzYlRON04KaehZ3YjDwEmVjGUGo0TKWVjeNXOujVRlh0K1drUbcdPkw==}
+  /rxjs/7.4.0:
+    resolution: {integrity: sha512-7SQDi7xeTMCJpqViXh8gL/lebcwlp3d831F05+9B44A4B0WfsEwUQHR64gsH1kvJ+Ep/J9K2+n1hVl1CsGN23w==}
     dependencies:
       tslib: 2.1.0
     dev: true
