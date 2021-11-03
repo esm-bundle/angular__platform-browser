@@ -2,10 +2,10 @@ lockfileVersion: 5.3
 
 specifiers:
   '@angular/common': ^11.1.1
-  '@angular/compiler': 12.2.11
-  '@angular/compiler-cli': 12.2.11
+  '@angular/compiler': 12.2.13
+  '@angular/compiler-cli': 12.2.13
   '@angular/core': ^11.1.1
-  '@angular/platform-browser': 12.2.11
+  '@angular/platform-browser': 12.2.13
   concurrently: 5.3.0
   esm-bundle-scripts: 1.2.0
   husky: 7.0.4
@@ -25,10 +25,10 @@ specifiers:
 
 devDependencies:
   '@angular/common': 11.1.1_@angular+core@11.1.1+rxjs@7.4.0
-  '@angular/compiler': 12.2.11
-  '@angular/compiler-cli': 12.2.11_5bcc2fce18b662f73577c0734ae18e33
+  '@angular/compiler': 12.2.13
+  '@angular/compiler-cli': 12.2.13_244789620a70483be2732bac2d77e830
   '@angular/core': 11.1.1_rxjs@7.4.0
-  '@angular/platform-browser': 12.2.11_3f0c9497bae1b55fc1a28a50b177ad6d
+  '@angular/platform-browser': 12.2.13_3f0c9497bae1b55fc1a28a50b177ad6d
   concurrently: 5.3.0
   esm-bundle-scripts: 1.2.0
   husky: 7.0.4
@@ -59,15 +59,15 @@ packages:
       tslib: 2.1.0
     dev: true
 
-  /@angular/compiler-cli/12.2.11_5bcc2fce18b662f73577c0734ae18e33:
-    resolution: {integrity: sha512-mOEyAQQS28omIGOw71jXnAI+GLxLVHhsa5vcS9Cy+HLfgJzysTngwdKNO7iJvalsyAsb9EjJ3R82XRKKJspV0g==}
+  /@angular/compiler-cli/12.2.13_244789620a70483be2732bac2d77e830:
+    resolution: {integrity: sha512-qmnmihl3SCRooj/mCsNIZLtnQ6qbx1/L6aMIEQosPvQhMeGMt8GCYvQPE8IZ+sahv7fih95HCWNa9TeLpOylug==}
     engines: {node: ^12.14.1 || >=14.0.0}
     hasBin: true
     peerDependencies:
-      '@angular/compiler': 12.2.11
+      '@angular/compiler': 12.2.13
       typescript: '>=4.2.3 <4.4'
     dependencies:
-      '@angular/compiler': 12.2.11
+      '@angular/compiler': 12.2.13
       '@babel/core': 7.12.10
       '@babel/types': 7.12.12
       canonical-path: 1.0.0
@@ -87,8 +87,8 @@ packages:
       - supports-color
     dev: true
 
-  /@angular/compiler/12.2.11:
-    resolution: {integrity: sha512-78b5Uf+79gOKEyF/ixFAGJANNHnhueofSxgToBmJkTTpqTX6Xzdfzw8W+ehpJADp52eBjmZ+rv7b9sgBsiJ1tg==}
+  /@angular/compiler/12.2.13:
+    resolution: {integrity: sha512-L0saTTJJtxldjhaGIL6b1BCfodPOEz4Wrev3pEUK5UcODooj5HLiE/aO6jiNb8M4XTbdqByKyqvZyWzGHeexVQ==}
     engines: {node: ^12.14.1 || >=14.0.0}
     dependencies:
       tslib: 2.3.0
@@ -104,13 +104,13 @@ packages:
       tslib: 2.1.0
     dev: true
 
-  /@angular/platform-browser/12.2.11_3f0c9497bae1b55fc1a28a50b177ad6d:
-    resolution: {integrity: sha512-uJEnVOK3M1SrCWJoW2jFx5F8pUCbSISai7dbTBVc+/Gx6e9ZuNzBVOooLvSzV96DurhTV7xGSXR5Ry75UNZ48A==}
+  /@angular/platform-browser/12.2.13_3f0c9497bae1b55fc1a28a50b177ad6d:
+    resolution: {integrity: sha512-Ua8m2GtG2msqz/Mr/MK7s8RXud554x8cup2THVAwetyTaY5th/1LOZX0hhDIhfsxBCLHnC53LRhMbSsI0cikOg==}
     engines: {node: ^12.14.1 || >=14.0.0}
     peerDependencies:
-      '@angular/animations': 12.2.11
-      '@angular/common': 12.2.11
-      '@angular/core': 12.2.11
+      '@angular/animations': 12.2.13
+      '@angular/common': 12.2.13
+      '@angular/core': 12.2.13
     peerDependenciesMeta:
       '@angular/animations':
         optional: true
