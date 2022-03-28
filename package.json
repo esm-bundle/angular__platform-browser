@@ -4,7 +4,16 @@
   "description": "ESM and SystemJS versions of @angular/platform-browser",
   "type": "module",
   "exports": {
-    ".": "./es2015/ivy/angular-platform-browser.js"
+    ".": {
+      "es2015": "./es2015/ivy/angular-platform-browser.js",
+      "es2020": "./es2020/ivy/angular-platform-browser.js",
+      "default": "./es2020/ivy/angular-platform-browser.js"
+    },
+    "./animations": {
+      "es2015": "./es2015/ivy/angular-animations.js",
+      "es2020": "./es2020/ivy/angular-animations.js",
+      "default": "./es2020/ivy/angular-animations.js"
+    }
   },
   "scripts": {
     "test": "pnpm run build && concurrently -n w: 'pnpm:test:*'",
@@ -15,6 +24,7 @@
     "format": "prettier --write .",
     "release": "release-it",
     "prepublishOnly": "pnpm build && pinst --disable",
+    "postinstall": "husky install",
     "postpublish": "pinst --enable"
   },
   "files": [
@@ -33,11 +43,11 @@
   },
   "homepage": "https://github.com/esm-bundle/angular__platform-browser#readme",
   "devDependencies": {
-    "@angular/common": "13.3.0",
-    "@angular/compiler": "13.3.0",
-    "@angular/compiler-cli": "13.3.0",
-    "@angular/core": "13.3.0",
-    "@angular/platform-browser": "13.3.0",
+    "@angular/common": "13.3.1",
+    "@angular/compiler": "13.3.1",
+    "@angular/compiler-cli": "13.3.1",
+    "@angular/core": "13.3.1",
+    "@angular/platform-browser": "13.3.1",
     "@rollup/plugin-babel": "5.3.1",
     "concurrently": "7.0.0",
     "esm-bundle-scripts": "1.2.0",

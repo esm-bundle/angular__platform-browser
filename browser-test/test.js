@@ -1,11 +1,37 @@
 describe("@esm-bundle/angular__platform-browser", () => {
-  it("can load the System.register es2015 dev bundle", () => {
-    return System.import("/base/system/es2015/ivy/angular-platform-browser.js");
+  describe("@angular/platform-browser", () => {
+    ["es2015", "es2020"].forEach((ecma) => {
+      it(`can load the System.register ${ecma} bundle`, async () => {
+        const m = await System.import(
+          `/base/system/${ecma}/ivy/angular-platform-browser.js`
+        );
+        expect(m.platformBrowser).toBeDefined();
+      });
+
+      it(`can load the System.register ${ecma} prod bundle`, async () => {
+        const m = await System.import(
+          `/base/system/${ecma}/ivy/angular-platform-browser.min.js`
+        );
+        expect(m.platformBrowser).toBeDefined();
+      });
+    });
   });
 
-  it("can load the System.register es2015 prod bundle", () => {
-    return System.import(
-      "/base/system/es2015/ivy/angular-platform-browser.min.js"
-    );
+  describe("@angular/platform-browser/animations", () => {
+    ["es2015", "es2020"].forEach((ecma) => {
+      it(`can load the System.register ${ecma} bundle`, async () => {
+        const m = await System.import(
+          `/base/system/${ecma}/ivy/angular-animations.js`
+        );
+        expect(m.BrowserAnimationsModule).toBeDefined();
+      });
+
+      it(`can load the System.register ${ecma} prod bundle`, async () => {
+        const m = await System.import(
+          `/base/system/${ecma}/ivy/angular-animations.min.js`
+        );
+        expect(m.BrowserAnimationsModule).toBeDefined();
+      });
+    });
   });
 });

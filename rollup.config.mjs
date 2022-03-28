@@ -94,6 +94,13 @@ function createConfig({ ecma, prod, format, angularPackage, filename }) {
             ecma,
             comments: /esm-bundle/,
           },
+          compress: {
+            global_defs: {
+              ngJitMode: false,
+              ngDevMode: false,
+              ngI18nClosureMode: false,
+            },
+          },
         }),
     ],
     external: [
@@ -102,6 +109,8 @@ function createConfig({ ecma, prod, format, angularPackage, filename }) {
       "@angular/common",
       "@angular/router",
       "@angular/core",
+      "@angular/animations",
+      "@angular/animations/browser",
     ],
   };
 }
