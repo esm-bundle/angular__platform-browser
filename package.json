@@ -11,15 +11,15 @@
     "test:browser": "karma start karma.conf.cjs --single-run",
     "debug:test:browser": "karma start karma.conf.cjs",
     "test:formatting": "prettier --check .",
-    "build": "rimraf system es2015 && rollup -c",
+    "build": "rimraf system es2015 es2020 && rollup -c",
     "format": "prettier --write .",
     "release": "release-it",
-    "postinstall": "ngcc --no-tsconfig --target @angular/platform-browser --properties es2015 --first-only",
     "prepublishOnly": "pnpm build && pinst --disable",
     "postpublish": "pinst --enable"
   },
   "files": [
     "es2015",
+    "es2020",
     "system"
   ],
   "repository": {
@@ -33,11 +33,12 @@
   },
   "homepage": "https://github.com/esm-bundle/angular__platform-browser#readme",
   "devDependencies": {
-    "@angular/common": "^11.1.1",
-    "@angular/compiler": "12.2.16",
-    "@angular/compiler-cli": "12.2.16",
-    "@angular/core": "^11.1.1",
-    "@angular/platform-browser": "12.2.16",
+    "@angular/common": "13.3.0",
+    "@angular/compiler": "13.3.0",
+    "@angular/compiler-cli": "13.3.0",
+    "@angular/core": "13.3.0",
+    "@angular/platform-browser": "13.3.0",
+    "@rollup/plugin-babel": "5.3.1",
     "concurrently": "7.0.0",
     "esm-bundle-scripts": "1.2.0",
     "husky": "7.0.4",
