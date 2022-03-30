@@ -10,7 +10,11 @@ A repo that tests automatic detection of upstream publishes and the publishing o
 
 Upstream repo at https://github.com/angular/angular.
 
-### Latest Version
+## Latest Version
+
+### @angular/platform-browser
+
+#### ES2015
 
 https://cdn.jsdelivr.net/npm/@esm-bundle/angular__platform-browser/system/es2015/ivy/angular-platform-browser.js
 
@@ -20,7 +24,39 @@ https://unpkg.com/@esm-bundle/angular__platform-browser/system/es2015/ivy/angula
 
 https://unpkg.com/@esm-bundle/angular__platform-browser/system/es2015/ivy/angular-platform-browser.min.js
 
-### Specific Version
+#### ES2020
+
+https://cdn.jsdelivr.net/npm/@esm-bundle/angular__platform-browser/system/es2020/ivy/angular-platform-browser.js
+
+https://cdn.jsdelivr.net/npm/@esm-bundle/angular__platform-browser/system/es2020/ivy/angular-platform-browser.min.js
+
+https://unpkg.com/@esm-bundle/angular__platform-browser/system/es2020/ivy/angular-platform-browser.js
+
+https://unpkg.com/@esm-bundle/angular__platform-browser/system/es2020/ivy/angular-platform-browser.min.js
+
+### @angular/platform-browser/animations
+
+#### ES2015
+
+https://cdn.jsdelivr.net/npm/@esm-bundle/angular__platform-browser/system/es2015/ivy/angular-animations.js
+
+https://cdn.jsdelivr.net/npm/@esm-bundle/angular__platform-browser/system/es2015/ivy/angular-animations.min.js
+
+https://unpkg.com/@esm-bundle/angular__platform-browser/system/es2015/ivy/angular-animations.js
+
+https://unpkg.com/@esm-bundle/angular__platform-browser/system/es2015/ivy/angular-animations.min.js
+
+#### ES2020
+
+https://cdn.jsdelivr.net/npm/@esm-bundle/angular__platform-browser/system/es2020/ivy/angular-platform-browser.js
+
+https://cdn.jsdelivr.net/npm/@esm-bundle/angular__platform-browser/system/es2020/ivy/angular-platform-browser.min.js
+
+https://unpkg.com/@esm-bundle/angular__platform-browser/system/es2020/ivy/angular-platform-browser.js
+
+https://unpkg.com/@esm-bundle/angular__platform-browser/system/es2020/ivy/angular-platform-browser.min.js
+
+## Specific Version
 
 https://cdn.jsdelivr.net/npm/@esm-bundle/angular__platform-browser@11.1.1/system/es2015/ivy/angular-platform-browser.js
 
