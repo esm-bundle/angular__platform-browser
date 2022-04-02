@@ -7,7 +7,7 @@ specifiers:
   '@angular/core': 13.3.1
   '@angular/platform-browser': 13.3.1
   '@rollup/plugin-babel': 5.3.1
-  concurrently: 7.0.0
+  concurrently: 7.1.0
   esm-bundle-scripts: 1.2.0
   husky: 7.0.4
   karma: 6.3.17
@@ -31,7 +31,7 @@ devDependencies:
   '@angular/core': 13.3.1_rxjs@7.5.5
   '@angular/platform-browser': 13.3.1_588bc1d07857b02797a40f891f8d9efe
   '@rollup/plugin-babel': 5.3.1_rollup@2.70.1
-  concurrently: 7.0.0
+  concurrently: 7.1.0
   esm-bundle-scripts: 1.2.0
   husky: 7.0.4
   karma: 6.3.17
@@ -1130,11 +1130,6 @@ packages:
     engines: {node: '>=6'}
     dev: true
 
-  /ansi-regex/5.0.0:
-    resolution: {integrity: sha512-bY6fj56OUQ0hU1KjFNDQuJFezqKdrAyFdIevADiqrWHwSlbmBNMHp5ak2f40Pm8JTFyM2mqxkG6ngkHO11f/lg==}
-    engines: {node: '>=8'}
-    dev: true
-
   /ansi-regex/5.0.1:
     resolution: {integrity: sha512-quJQXlTSUGL2LH9SUXo8VwsY4soanhgo6LNSm84E1LBcE8s3O0wpdiRzyR9z/ZZJMlMWv37qOOb9pdJlMUEKFQ==}
     engines: {node: '>=8'}
@@ -1768,7 +1763,7 @@ packages:
     resolution: {integrity: sha512-OcRE68cOsVMXp1Yvonl/fzkQOyjLSu/8bhPDfQt0e0/Eb283TKP20Fs2MqoPsr9SwA595rRCA+QMzYc9nBP+JQ==}
     dependencies:
       string-width: 4.2.3
-      strip-ansi: 6.0.0
+      strip-ansi: 6.0.1
       wrap-ansi: 7.0.0
     dev: true
 
@@ -1881,8 +1876,8 @@ packages:
       yargs: 13.3.2
     dev: true
 
-  /concurrently/7.0.0:
-    resolution: {integrity: sha512-WKM7PUsI8wyXpF80H+zjHP32fsgsHNQfPLw/e70Z5dYkV7hF+rf8q3D+ScWJIEr57CpkO3OWBko6hwhQLPR8Pw==}
+  /concurrently/7.1.0:
+    resolution: {integrity: sha512-Bz0tMlYKZRUDqJlNiF/OImojMB9ruKUz6GCfmhFnSapXgPe+3xzY4byqoKG9tUZ7L2PGEUjfLPOLfIX3labnmw==}
     engines: {node: ^12.20.0 || ^14.13.0 || >=16.0.0}
     hasBin: true
     dependencies:
@@ -6406,13 +6401,6 @@ packages:
     engines: {node: '>=6'}
     dependencies:
       ansi-regex: 4.1.0
-    dev: true
-
-  /strip-ansi/6.0.0:
-    resolution: {integrity: sha512-AuvKTrTfQNYNIctbR1K/YGTR1756GycPsg7b9bdV9Duqur4gv6aKqHXah67Z8ImS7WEz5QVcOtlfW2rZEugt6w==}
-    engines: {node: '>=8'}
-    dependencies:
-      ansi-regex: 5.0.0
     dev: true
 
   /strip-ansi/6.0.1:
