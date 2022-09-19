@@ -10,7 +10,7 @@ specifiers:
   concurrently: 7.4.0
   esm-bundle-scripts: 1.2.0
   husky: 8.0.1
-  karma: 6.4.0
+  karma: 6.4.1
   karma-firefox-launcher: 2.1.2
   karma-jasmine: 5.1.0
   pinst: 3.0.0
@@ -34,9 +34,9 @@ devDependencies:
   concurrently: 7.4.0
   esm-bundle-scripts: 1.2.0
   husky: 8.0.1
-  karma: 6.4.0
+  karma: 6.4.1
   karma-firefox-launcher: 2.1.2
-  karma-jasmine: 5.1.0_karma@6.4.0
+  karma-jasmine: 5.1.0_karma@6.4.1
   pinst: 3.0.0
   prettier: 2.7.1
   pretty-quick: 3.1.3_prettier@2.7.1
@@ -3539,10 +3539,6 @@ packages:
     resolution: {integrity: sha512-9ByhssR2fPVsNZj478qUUbKfmL0+t5BDVyjShtyZZLiK7ZDAArFFfopyOTj0M05wE2tJPisA4iTnnXl2YoPvOA==}
     dev: true
 
-  /graceful-fs/4.2.6:
-    resolution: {integrity: sha512-nTnJ528pbqxYanhpDYsi4Rd8MAeaBA67+RZ10CM1m3bTAVFEDcd5AuA4a6W5YkGZ1iNXHzZz8T6TBKLeBuNriQ==}
-    dev: true
-
   /growl/1.10.5:
     resolution: {integrity: sha512-qBr4OuELkhPenW6goKVXiv47US3clb3/IbuWF9KNKEijAy9oeHxU9IgzjvJhHkUzhaj7rOUD7+YGWqUjLp5oSA==}
     engines: {node: '>=4.x'}
@@ -4970,14 +4966,14 @@ packages:
       karma: 5.2.3
     dev: true
 
-  /karma-jasmine/5.1.0_karma@6.4.0:
+  /karma-jasmine/5.1.0_karma@6.4.1:
     resolution: {integrity: sha512-i/zQLFrfEpRyQoJF9fsCdTMOF5c2dK7C7OmsuKg2D0YSsuZSfQDiLuaiktbuio6F2wiCsZSnSnieIQ0ant/uzQ==}
     engines: {node: '>=12'}
     peerDependencies:
       karma: ^6.0.0
     dependencies:
       jasmine-core: 4.1.0
-      karma: 6.4.0
+      karma: 6.4.1
     dev: true
 
   /karma/5.2.3:
@@ -5015,8 +5011,8 @@ packages:
       - utf-8-validate
     dev: true
 
-  /karma/6.4.0:
-    resolution: {integrity: sha512-s8m7z0IF5g/bS5ONT7wsOavhW4i4aFkzD4u4wgzAQWT4HGUeWI3i21cK2Yz6jndMAeHETp5XuNsRoyGJZXVd4w==}
+  /karma/6.4.1:
+    resolution: {integrity: sha512-Cj57NKOskK7wtFWSlMvZf459iX+kpYIPXmkNUzP2WAFcA7nhr/ALn5R7sw3w+1udFDcpMx/tuB8d5amgm3ijaA==}
     engines: {node: '>= 10'}
     hasBin: true
     dependencies:
@@ -5028,7 +5024,7 @@ packages:
       di: 0.0.1
       dom-serialize: 2.2.1
       glob: 7.1.7
-      graceful-fs: 4.2.6
+      graceful-fs: 4.2.10
       http-proxy: 1.18.1
       isbinaryfile: 4.0.8
       lodash: 4.17.21
@@ -5712,7 +5708,7 @@ packages:
     dev: true
 
   /once/1.4.0:
-    resolution: {integrity: sha1-WDsap3WWHUsROsF9nFC6753Xa9E=}
+    resolution: {integrity: sha512-lNaJgI+2Q5URQBkccEKHTQOPaXdUxnZZElQTZY0MFUAuaEqe1E+Nyvgdz/aIyNi6Z9MzO5dv1H8n58/GELp3+w==}
     dependencies:
       wrappy: 1.0.2
     dev: true
@@ -8048,7 +8044,7 @@ packages:
     dev: true
 
   /wrappy/1.0.2:
-    resolution: {integrity: sha1-tSQ9jz7BqjXxNkYFvA0QNuMKtp8=}
+    resolution: {integrity: sha512-l4Sp/DRseor9wL6EvV2+TuQn63dMkPjZ/sp9XkghTEbV9KlPS1xUsZ3u7/IQO4wxtcFB4bgpQPRcR3QCvezPcQ==}
     dev: true
 
   /write-file-atomic/3.0.3:
