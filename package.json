@@ -44,10 +44,10 @@
   "homepage": "https://github.com/esm-bundle/angular__platform-browser#readme",
   "devDependencies": {
     "@angular/common": "13.3.1",
-    "@angular/compiler": "15.0.2",
-    "@angular/compiler-cli": "15.0.2",
+    "@angular/compiler": "15.0.3",
+    "@angular/compiler-cli": "15.0.3",
     "@angular/core": "13.3.1",
-    "@angular/platform-browser": "15.0.2",
+    "@angular/platform-browser": "15.0.3",
     "@rollup/plugin-babel": "6.0.3",
     "concurrently": "7.6.0",
     "esm-bundle-scripts": "1.2.0",
