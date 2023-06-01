@@ -36,7 +36,7 @@ const linkerPlugin = createEs2015LinkerPlugin({
   linkerJitMode: false,
 });
 
-const packages = ["2015", "2020"]
+const packages = ["2022"]
   .map((ecma) => [
     {
       ecma,
@@ -109,6 +109,7 @@ function createConfig({ ecma, prod, format, angularPackage, filename }) {
       "@angular/common",
       "@angular/router",
       "@angular/core",
+      "@angular/common/http",
       "@angular/animations",
       "@angular/animations/browser",
     ],
