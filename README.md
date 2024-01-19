@@ -28,13 +28,25 @@ https://unpkg.com/@esm-bundle/angular__platform-browser/system/es2022/ivy/angula
 
 #### es2022
 
-https://cdn.jsdelivr.net/npm/@esm-bundle/angular__platform-browser/system/es2022/ivy/angular-platform-browser.js
+https://cdn.jsdelivr.net/npm/@esm-bundle/angular__platform-browser/system/es2022/ivy/angular-animations.js
 
-https://cdn.jsdelivr.net/npm/@esm-bundle/angular__platform-browser/system/es2022/ivy/angular-platform-browser.min.js
+https://cdn.jsdelivr.net/npm/@esm-bundle/angular__platform-browser/system/es2022/ivy/angular-animations.min.js
 
-https://unpkg.com/@esm-bundle/angular__platform-browser/system/es2022/ivy/angular-platform-browser.js
+https://unpkg.com/@esm-bundle/angular__platform-browser/system/es2022/ivy/angular-animations.js
 
-https://unpkg.com/@esm-bundle/angular__platform-browser/system/es2022/ivy/angular-platform-browser.min.js
+https://unpkg.com/@esm-bundle/angular__platform-browser/system/es2022/ivy/angular-animations.min.js
+
+### @angular/platform-browser/animations/async
+
+#### es2022
+
+https://cdn.jsdelivr.net/npm/@esm-bundle/angular__platform-browser/system/es2022/ivy/angular-animations-async.js
+
+https://cdn.jsdelivr.net/npm/@esm-bundle/angular__platform-browser/system/es2022/ivy/angular-animations-async.min.js
+
+https://unpkg.com/@esm-bundle/angular__platform-browser/system/es2022/ivy/angular-animations-async.js
+
+https://unpkg.com/@esm-bundle/angular__platform-browser/system/es2022/ivy/angular-animations-async.min.js
 
 ## Specific Version
 
