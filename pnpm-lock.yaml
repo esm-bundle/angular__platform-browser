@@ -7,7 +7,7 @@ specifiers:
   '@angular/compiler': 17.1.1
   '@angular/compiler-cli': 17.1.1
   '@angular/core': 16.0.3
-  '@angular/platform-browser': 17.1.0
+  '@angular/platform-browser': 17.1.1
   '@rollup/plugin-babel': 6.0.4
   concurrently: 8.2.2
   esm-bundle-scripts: 1.2.0
@@ -30,7 +30,7 @@ devDependencies:
   '@angular/compiler': 17.1.1_@angular+core@16.0.3
   '@angular/compiler-cli': 17.1.1_oxnlxfhlpjzo6tet7xlsrqp4h4
   '@angular/core': 16.0.3_rxjs@7.8.1
-  '@angular/platform-browser': 17.1.0_@angular+core@16.0.3
+  '@angular/platform-browser': 17.1.1_@angular+core@16.0.3
   '@rollup/plugin-babel': 6.0.4_rollup@4.9.6
   concurrently: 8.2.2
   esm-bundle-scripts: 1.2.0
@@ -105,13 +105,13 @@ packages:
       tslib: 2.3.0
     dev: true
 
-  /@angular/platform-browser/17.1.0_@angular+core@16.0.3:
-    resolution: {integrity: sha512-Klq92ZUX0+ZsxLvbYtIEP3GtVEfMLYPxmBP0pWNZyYIeJCg/YxPS76QSvEhBaMqFelk4RzkDQEIfixC16UIgOA==}
+  /@angular/platform-browser/17.1.1_@angular+core@16.0.3:
+    resolution: {integrity: sha512-/80znuEkdDvsF6EX/fe03isQlLCUS9+ldCgB4n0ZL+qAkf2/lJlU3n97SyEN7rzb189U+K1fDe0fb1nDwbbcWQ==}
     engines: {node: ^18.13.0 || >=20.9.0}
     peerDependencies:
-      '@angular/animations': 17.1.0
-      '@angular/common': 17.1.0
-      '@angular/core': 17.1.0
+      '@angular/animations': 17.1.1
+      '@angular/common': 17.1.1
+      '@angular/core': 17.1.1
     peerDependenciesMeta:
       '@angular/animations':
         optional: true
