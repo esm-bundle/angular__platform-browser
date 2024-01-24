@@ -4,8 +4,8 @@ overrides:
   terser: 5.17.6
 
 specifiers:
-  '@angular/compiler': 17.1.0
-  '@angular/compiler-cli': 17.1.0
+  '@angular/compiler': 17.1.1
+  '@angular/compiler-cli': 17.1.1
   '@angular/core': 16.0.3
   '@angular/platform-browser': 17.1.0
   '@rollup/plugin-babel': 6.0.4
@@ -27,8 +27,8 @@ specifiers:
   typescript: 5.3.3
 
 devDependencies:
-  '@angular/compiler': 17.1.0_@angular+core@16.0.3
-  '@angular/compiler-cli': 17.1.0_iu2v3q4sgsd5n2u4evc6kzlvnu
+  '@angular/compiler': 17.1.1_@angular+core@16.0.3
+  '@angular/compiler-cli': 17.1.1_oxnlxfhlpjzo6tet7xlsrqp4h4
   '@angular/core': 16.0.3_rxjs@7.8.1
   '@angular/platform-browser': 17.1.0_@angular+core@16.0.3
   '@rollup/plugin-babel': 6.0.4_rollup@4.9.6
@@ -59,15 +59,15 @@ packages:
       '@jridgewell/trace-mapping': 0.3.17
     dev: true
 
-  /@angular/compiler-cli/17.1.0_iu2v3q4sgsd5n2u4evc6kzlvnu:
-    resolution: {integrity: sha512-WDpO4WvC5ItjaRexnpFpKPpT+cu+5GYkWF8h74iHhfxOgU+gaQiMWERHylWCqF25AzmhKu0iI3ZZtaIJ6qqwog==}
+  /@angular/compiler-cli/17.1.1_oxnlxfhlpjzo6tet7xlsrqp4h4:
+    resolution: {integrity: sha512-d6Aev1P92q7wd5u3UcJifzNlU9svxaYI2Ts6MKoD4jY4/GPN/gPDqi20weDMujEgirrkcwGbsCXBRoEGkA5c9A==}
     engines: {node: ^18.13.0 || >=20.9.0}
     hasBin: true
     peerDependencies:
-      '@angular/compiler': 17.1.0
+      '@angular/compiler': 17.1.1
       typescript: '>=5.2 <5.4'
     dependencies:
-      '@angular/compiler': 17.1.0_@angular+core@16.0.3
+      '@angular/compiler': 17.1.1_@angular+core@16.0.3
       '@babel/core': 7.23.2
       '@jridgewell/sourcemap-codec': 1.4.14
       chokidar: 3.5.1
@@ -81,11 +81,11 @@ packages:
       - supports-color
     dev: true
 
-  /@angular/compiler/17.1.0_@angular+core@16.0.3:
-    resolution: {integrity: sha512-gF4i/WtPSiSvT4YNasTNnckOxdxuSNwi0EsncrtewwveBcCatjqaXNssUCiF5TgxlC2sKTmsPcMqDJrfX2LMpw==}
+  /@angular/compiler/17.1.1_@angular+core@16.0.3:
+    resolution: {integrity: sha512-lEQ5YNMJQm2iO2EZbGkwL3SqnxtE2ENfymgbS023F6ACsnP3kKB2DMwOnIbGgQY4+8r4sJFiMAIjEkj5c9kttg==}
     engines: {node: ^18.13.0 || >=20.9.0}
     peerDependencies:
-      '@angular/core': 17.1.0
+      '@angular/core': 17.1.1
     peerDependenciesMeta:
       '@angular/core':
         optional: true
