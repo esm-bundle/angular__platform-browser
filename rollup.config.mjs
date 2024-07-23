@@ -2,7 +2,7 @@ import fs from "fs";
 import url from "url";
 import path from "path";
 import { babel } from "@rollup/plugin-babel";
-import { terser } from "rollup-plugin-terser";
+import terser from "@rollup/plugin-terser";
 import { createEs2015LinkerPlugin } from "@angular/compiler-cli/linker/babel";
 import {
   ConsoleLogger,
@@ -16,10 +16,10 @@ const packageJson = JSON.parse(
     .readFileSync(
       path.resolve(
         __dirname,
-        "node_modules/@angular/platform-browser/package.json"
-      )
+        "node_modules/@angular/platform-browser/package.json",
+      ),
     )
-    .toString()
+    .toString(),
 );
 
 /** File system used by the Angular linker plugin. */
@@ -47,6 +47,11 @@ const packages = ["2022"]
       ecma,
       angularPackage: "@angular/platform-browser/animations",
       filename: "animations",
+    },
+    {
+      ecma,
+      angularPackage: "@angular/platform-browser/animations/async",
+      filename: "animations/async",
     },
   ])
   .flat();
@@ -78,10 +83,12 @@ function createConfig({ ecma, prod, format, angularPackage, filename }) {
   return {
     input: path.join(
       __dirname,
-      `node_modules/@angular/platform-browser/fesm${ecma}/${filename}.mjs`
+      `node_modules/@angular/platform-browser/fesm${ecma}/${filename}.mjs`,
     ),
     output: {
-      file: `${dir}/angular-${filename}.${prod ? "min." : ""}js`,
+      file: `${dir}/angular-${filename.replace(/\//g, "-")}.${
+        prod ? "min." : ""
+      }js`,
       format,
       sourcemap: true,
       banner: `/* esm-bundle - ${angularPackage}@${packageJson.version} - Ivy - ${format} format - es${ecma} - Use of this source code is governed by an MIT-style license that can be found in the LICENSE file at https://angular.io/license */`,
@@ -112,6 +119,7 @@ function createConfig({ ecma, prod, format, angularPackage, filename }) {
       "@angular/common/http",
       "@angular/animations",
       "@angular/animations/browser",
+      "@angular/platform-browser",
     ],
   };
 }
