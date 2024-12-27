@@ -46,7 +46,7 @@
     "@angular/core": "16.0.3",
     "@angular/platform-browser": "17.1.1",
     "@rollup/plugin-babel": "6.0.4",
-    "concurrently": "9.1.0",
+    "concurrently": "9.1.1",
     "esm-bundle-scripts": "1.2.0",
     "husky": "9.1.7",
     "karma": "6.4.4",
