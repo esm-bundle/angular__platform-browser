@@ -24,11 +24,11 @@ specifiers:
   rollup: 4.30.1
   rollup-plugin-terser: 7.0.2
   rxjs: 7.8.1
-  typescript: 5.7.2
+  typescript: 5.7.3
 
 devDependencies:
   '@angular/compiler': 17.1.1_@angular+core@16.0.3
-  '@angular/compiler-cli': 17.1.1_omie2ae6k26e6apvju6dyziece
+  '@angular/compiler-cli': 17.1.1_6gzj5o5dpvj6zlop7uafs2iycy
   '@angular/core': 16.0.3_rxjs@7.8.1
   '@angular/platform-browser': 17.1.1_@angular+core@16.0.3
   '@rollup/plugin-babel': 6.0.4_rollup@4.30.1
@@ -41,13 +41,13 @@ devDependencies:
   pinst: 3.0.0
   prettier: 2.8.8
   pretty-quick: 4.0.0_prettier@2.8.8
-  release-it: 18.0.0_typescript@5.7.2
+  release-it: 18.0.0_typescript@5.7.3
   release-it-plugin-esm-bundle: 3.0.0_release-it@18.0.0
   rimraf: 6.0.1
   rollup: 4.30.1
   rollup-plugin-terser: 7.0.2_rollup@4.30.1
   rxjs: 7.8.1
-  typescript: 5.7.2
+  typescript: 5.7.3
 
 packages:
 
@@ -59,7 +59,7 @@ packages:
       '@jridgewell/trace-mapping': 0.3.17
     dev: true
 
-  /@angular/compiler-cli/17.1.1_omie2ae6k26e6apvju6dyziece:
+  /@angular/compiler-cli/17.1.1_6gzj5o5dpvj6zlop7uafs2iycy:
     resolution: {integrity: sha512-d6Aev1P92q7wd5u3UcJifzNlU9svxaYI2Ts6MKoD4jY4/GPN/gPDqi20weDMujEgirrkcwGbsCXBRoEGkA5c9A==}
     engines: {node: ^18.13.0 || >=20.9.0}
     hasBin: true
@@ -75,7 +75,7 @@ packages:
       reflect-metadata: 0.1.13
       semver: 7.5.4
       tslib: 2.6.2
-      typescript: 5.7.2
+      typescript: 5.7.3
       yargs: 17.7.2
     transitivePeerDependencies:
       - supports-color
@@ -2594,7 +2594,7 @@ packages:
       yaml: 1.10.2
     dev: true
 
-  /cosmiconfig/9.0.0_typescript@5.7.2:
+  /cosmiconfig/9.0.0_typescript@5.7.3:
     resolution: {integrity: sha512-itvL5h8RETACmOTFc4UfIyB2RfEHi71Ax6E/PivVxq9NseKbOWpeyHEOIbmAw1rs8Ak0VursQNww7lf7YtUwzg==}
     engines: {node: '>=14'}
     peerDependencies:
@@ -2607,7 +2607,7 @@ packages:
       import-fresh: 3.3.0
       js-yaml: 4.1.0
       parse-json: 5.2.0
-      typescript: 5.7.2
+      typescript: 5.7.3
     dev: true
 
   /cross-spawn/6.0.5:
@@ -7031,7 +7031,7 @@ packages:
     peerDependencies:
       release-it: '>=15.0.0'
     dependencies:
-      release-it: 18.0.0_typescript@5.7.2
+      release-it: 18.0.0_typescript@5.7.3
     dev: true
 
   /release-it/13.7.1:
@@ -7074,7 +7074,7 @@ packages:
       - encoding
     dev: true
 
-  /release-it/18.0.0_typescript@5.7.2:
+  /release-it/18.0.0_typescript@5.7.3:
     resolution: {integrity: sha512-aO7sGBwv+0m8FXVNT+RyL1yky9Nhg0IxkqJIdofTma0Dz4w9z0+u5DddzesOoYQL2fawib3Kwn30DaLxqiz5ng==}
     engines: {node: ^20.9.0 || >=22.0.0}
     hasBin: true
@@ -7084,7 +7084,7 @@ packages:
       async-retry: 1.3.3
       chalk: 5.4.1
       ci-info: 4.1.0
-      cosmiconfig: 9.0.0_typescript@5.7.2
+      cosmiconfig: 9.0.0_typescript@5.7.3
       execa: 9.5.2
       git-url-parse: 16.0.0
       globby: 14.0.2
@@ -8382,8 +8382,8 @@ packages:
       is-typedarray: 1.0.0
     dev: true
 
-  /typescript/5.7.2:
-    resolution: {integrity: sha512-i5t66RHxDvVN40HfDd1PsEThGNnlMCMT3jMUuoh9/0TaqWevNontacunWyN02LA9/fIbEWlcHZcgTKb9QoaLfg==}
+  /typescript/5.7.3:
+    resolution: {integrity: sha512-84MVSjMEHP+FQRPy3pX9sTVV/INIex71s9TL2Gm5FG/WG1SqXeKyZ0k7/blY/4FdOzI12CBy1vGc4og/eus0fw==}
     engines: {node: '>=14.17'}
     hasBin: true
     dev: true
