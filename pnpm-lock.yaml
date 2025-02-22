@@ -23,13 +23,13 @@ specifiers:
   rimraf: 6.0.1
   rollup: 4.34.8
   rollup-plugin-terser: 7.0.2
-  rxjs: 7.8.1
+  rxjs: 7.8.2
   typescript: 5.7.3
 
 devDependencies:
   '@angular/compiler': 17.1.1_@angular+core@16.0.3
   '@angular/compiler-cli': 17.1.1_6gzj5o5dpvj6zlop7uafs2iycy
-  '@angular/core': 16.0.3_rxjs@7.8.1
+  '@angular/core': 16.0.3_rxjs@7.8.2
   '@angular/platform-browser': 17.1.1_@angular+core@16.0.3
   '@rollup/plugin-babel': 6.0.4_rollup@4.34.8
   concurrently: 9.1.2
@@ -46,7 +46,7 @@ devDependencies:
   rimraf: 6.0.1
   rollup: 4.34.8
   rollup-plugin-terser: 7.0.2_rollup@4.34.8
-  rxjs: 7.8.1
+  rxjs: 7.8.2
   typescript: 5.7.3
 
 packages:
@@ -90,18 +90,18 @@ packages:
       '@angular/core':
         optional: true
     dependencies:
-      '@angular/core': 16.0.3_rxjs@7.8.1
+      '@angular/core': 16.0.3_rxjs@7.8.2
       tslib: 2.6.2
     dev: true
 
-  /@angular/core/16.0.3_rxjs@7.8.1:
+  /@angular/core/16.0.3_rxjs@7.8.2:
     resolution: {integrity: sha512-vaUOLgDk03aKDHX6jtv4NEDB6gEBCXvgTpvsTmDUXcCa9WxyXs4Ak22q9ZyNln8/7UG5Uo1gTn90FlOAh9jHww==}
     engines: {node: ^16.14.0 || >=18.10.0}
     peerDependencies:
       rxjs: ^6.5.3 || ^7.4.0
       zone.js: ~0.13.0
     dependencies:
-      rxjs: 7.8.1
+      rxjs: 7.8.2
       tslib: 2.3.0
     dev: true
 
@@ -116,7 +116,7 @@ packages:
       '@angular/animations':
         optional: true
     dependencies:
-      '@angular/core': 16.0.3_rxjs@7.8.1
+      '@angular/core': 16.0.3_rxjs@7.8.2
       tslib: 2.6.2
     dev: true
 
@@ -2481,7 +2481,7 @@ packages:
     dependencies:
       chalk: 4.1.2
       lodash: 4.17.21
-      rxjs: 7.8.1
+      rxjs: 7.8.2
       shell-quote: 1.8.1
       supports-color: 8.1.1
       tree-kill: 1.2.2
@@ -4363,7 +4363,7 @@ packages:
       ansi-escapes: 4.3.2
       mute-stream: 2.0.0
       run-async: 3.0.0
-      rxjs: 7.8.1
+      rxjs: 7.8.2
     dev: true
 
   /inquirer/7.3.3:
@@ -7393,10 +7393,10 @@ packages:
       tslib: 1.14.1
     dev: true
 
-  /rxjs/7.8.1:
-    resolution: {integrity: sha512-AA3TVj+0A2iuIoQkWEK/tqFjBq2j+6PO6Y0zJcvzLAFhEFIO3HL0vls9hWLncZbAAbK0mar7oZ4V079I/qPMxg==}
+  /rxjs/7.8.2:
+    resolution: {integrity: sha512-dhKf903U/PQZY6boNNtAGdWbG85WAbjT/1xYoZIC7FAY0yWapOBQVsVrDl58W86//e1VpMNBtRV4MaXfdMySFA==}
     dependencies:
-      tslib: 2.3.0
+      tslib: 2.6.2
     dev: true
 
   /safe-array-concat/1.0.1:
