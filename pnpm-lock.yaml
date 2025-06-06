@@ -1,7 +1,7 @@
 lockfileVersion: 5.4
 
 overrides:
-  terser: 5.40.0
+  terser: 5.41.0
 
 specifiers:
   '@angular/compiler': 17.1.1
@@ -7222,7 +7222,7 @@ packages:
       rollup: 2.79.1
       rollup-pluginutils: 2.8.2
       serialize-javascript: 4.0.0
-      terser: 5.40.0
+      terser: 5.41.0
     dev: true
 
   /rollup-plugin-terser/7.0.2_rollup@4.41.1:
@@ -7234,7 +7234,7 @@ packages:
       jest-worker: 26.6.2
       rollup: 4.41.1
       serialize-javascript: 4.0.0
-      terser: 5.40.0
+      terser: 5.41.0
     dev: true
 
   /rollup-pluginutils/2.8.2:
@@ -8031,8 +8031,8 @@ packages:
       supports-hyperlinks: 2.1.0
     dev: true
 
-  /terser/5.40.0:
-    resolution: {integrity: sha512-cfeKl/jjwSR5ar7d0FGmave9hFGJT8obyo0z+CrQOylLDbk7X81nPU6vq9VORa5jU30SkDnT2FXjLbR8HLP+xA==}
+  /terser/5.41.0:
+    resolution: {integrity: sha512-H406eLPXpZbAX14+B8psIuvIr8+3c+2hkuYzpMkoE0ij+NdsVATbA78vb8neA/eqrj7rywa2pIkdmWRsXW6wmw==}
     engines: {node: '>=10'}
     hasBin: true
     dependencies:
